@@ -30,9 +30,9 @@ jobs:
         pip install -r docs/requirements.txt
 
     # 4. Run sphinx-apidoc
-    #- name: Generate API documentation
-    #  run: |
-    #    sphinx-apidoc -o docs geonode_provider
+    - name: Generate API documentation
+      run: |
+        sphinx-apidoc -o docs docs
 
     # 5. Build the HTML docs (opcional)
     - name: Build HTML documentation
