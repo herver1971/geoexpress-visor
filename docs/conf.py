@@ -28,6 +28,7 @@ extensions = [
 	'sphinx.ext.doctest',
 	'sphinx.ext.intersphinx',
 	'sphinx.ext.viewcode',
+	'myst_parser',	
 	'sphinx.ext.napoleon'
 ]
 
