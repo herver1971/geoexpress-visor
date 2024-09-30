@@ -9,6 +9,9 @@ Welcome to GeoExpress Visor documentation!
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
+      :glob:
+
+   */index
 
 Indices and tables
 ==================
