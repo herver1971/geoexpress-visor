@@ -3,8 +3,8 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to GeoExpress Visor documentation!
-============================================
+Bienvenido a la documentación de GeoExpress Visor
+=================================================
 
 .. toctree::
    :maxdepth: 2
@@ -19,8 +19,8 @@ Tabla de contenidos
 
     introduction/index
 
-#.. toctree::
-#    :caption: Getting Started
-#    :maxdepth: 3
+.. toctree::
+    :caption: Navegacion
+    :maxdepth: 3
 
-#    start/index
+    navigation/index
