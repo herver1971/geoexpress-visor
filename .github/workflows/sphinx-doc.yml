@@ -1,4 +1,4 @@
-name: Publish Github Pages Sphinx
+name: Publish Github Pages Geoexpress
 
 on:
   push:
