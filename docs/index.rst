@@ -8,14 +8,19 @@ Welcome to GeoExpress Visor documentation!
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
-      :glob:
+   :caption: Contenidos:
 
-   */index
+Tabla de contenidos
+===================
 
-Indices and tables
-==================
+.. toctree::
+    :caption: Introducción
+    :maxdepth: 3
 
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+    introduction/index
+
+#.. toctree::
+#    :caption: Getting Started
+#    :maxdepth: 3
+
+#    start/index
