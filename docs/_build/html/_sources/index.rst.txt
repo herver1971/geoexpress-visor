@@ -18,17 +18,3 @@ El objetivo es que el usuario final pueda navegar cómodamente y aprovechar toda
 
 .. image:: images/geoexpress.png
 
-Tabla de contenidos
-===================
-
-.. toctree::
-    :caption: Introducción
-    :maxdepth: 3
-
-    introduction/index
-
-.. toctree::
-    :caption: Navegacion
-    :maxdepth: 3
-
-    navigation/index
