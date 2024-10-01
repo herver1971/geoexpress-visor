@@ -1,5 +1,5 @@
-GeoNode Users Guide
-===================
+Barra Lateral
+=============
 
 .. toctree::
     :maxdepth: 2
