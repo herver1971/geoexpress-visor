@@ -17,12 +17,14 @@ Al hacer clic en una subcategoría, finalmente aparecerán las **capas**.
 
 .. image:: ../images/barra2.png
    :align: left
-   :scale: 25 %
+   :scale: 30 %
 
 Al cliquear en cada capa, esta se activará y podrá verse sobre el mapa. Al hacer esto, también se abrirá una **tarjeta de capa** a la derecha del panel de capas. Es probable que debamos hacer click en en el signo mayor, a la izquierda de la cruz para desplegarla.
 
 
 .. image:: ../images/barra3.png
    :align: center
+
+
 
 
