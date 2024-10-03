@@ -8,6 +8,7 @@ Opacidad
 
 .. image:: images/cards1.png
    :align: left
+   :scale: 50 %
 
 En Geoexpress, la opacidad de todas las capas es del 50% por defecto, a menos que se haya determinado una opacidad específica previamente. Algunas capas, como los mesh, DEMs y objetos 3D, tienen opacidad fija y no se puede modificar.
 
@@ -16,6 +17,7 @@ Zoom a capa
 
 .. image:: images/cards2.png
    :align: left
+   :scale: 50 %
 
 El ícono de **Zoom a la capa** ajusta la vista del mapa a la extensión de la capa que se encuentra actualmente activa.
 
@@ -30,18 +32,23 @@ Más operaciones
 ---------------
 
 .. image:: images/cards4.png
-   :align: left
+   :scale: 50 %
+
 
 El botón **+** nos muestra mas opciones para trabajar con las capas. Nos permite
 
     * Descargar la capa en formato .zip
     .. image:: images/cards5.png
-       :align: center
+       :scale: 50 %
+
     * Activar las referencias de los elementos de la capa
     .. image:: images/cards6.png
-       :align: center
+       :scale: 50 %
+
     * Ver informacion de la capa
     .. image:: images/cards7.png
+       :scale: 50 %
     .. image:: images/cards8.png
+       :scale: 50 %
 
 
