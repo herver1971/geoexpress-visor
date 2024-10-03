@@ -6,4 +6,3 @@ Barra Lateral
 
     sidebar/index
     cards/index
-    languages/index
