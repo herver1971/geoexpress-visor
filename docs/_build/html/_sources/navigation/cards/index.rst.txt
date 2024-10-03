@@ -4,11 +4,13 @@ Tarjeta de capa
 Opacidad
 --------
 
-En Geoexpress, la opacidad de todas las capas es del 50% por defecto, a menos que se haya determinado una opacidad específica previamente. Algunas capas, como los mesh, DEMs y objetos 3D, tienen opacidad fija y no se puede modificar.
-
 .. image:: images/cards1.png
    :align: left
-   :scale: 25 %
+
+En Geoexpress, la opacidad de todas las capas es del 50% por defecto, a menos que se haya determinado una opacidad específica previamente. Algunas capas, como los mesh, DEMs y objetos 3D, tienen opacidad fija y no se puede modificar.
+
+
+
 
 
 
