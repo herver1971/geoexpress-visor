@@ -26,16 +26,16 @@ Al cliquear en cada capa, esta se activará y podrá verse sobre el mapa. Al hac
 
 En la parte inferior de la barra lateral, tenemos un icono con forma de engranaje.
 
-.. image:: images/barra18.png
+.. image:: images/barra4.png
    :align: center
 
 Al apretarlo nos permite ver un enlace a una breve guia de las opciones de la pantalla
 
-.. image:: images/barra19.png
+.. image:: images/barra5.png
    :align: center
 
 Con el botón lenguaje podremos elegir en que idioma deseamos utilizar el visor de Geoexpress
 
-.. image:: images/barra20.png
+.. image:: images/barra6.png
    :align: center
 
