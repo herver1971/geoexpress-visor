@@ -69,10 +69,10 @@ Al hacer clic sobre el ícono, permite analizar el objeto 3D y activar o desacti
 .. image:: images/cards10.png
 
 Administracion de capas
-=======================
+-----------------------
 
 Superposición de capas
-----------------------
+**********************
 
 Si se activan múltiples capas, el orden se determina por el orden de activación, con la última capa sobreponiéndose a las demás
 
@@ -87,7 +87,7 @@ quedando..
 .. image:: images/cards13.png
 
 Deshabilitar capas
-------------------
+******************
 
 Para desactivar una capa, se puede destildar en el panel de capas o cerrar la tarjeta de capa.
 
