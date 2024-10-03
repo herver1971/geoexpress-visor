@@ -1,12 +1,12 @@
 Barra lateral - Sidebar
 =======================
-.. image:: ../images/barra.png
+.. image:: images/barra.png
    :align: left
    :scale: 25 %
 
 A la izquierda de la pantalla se puede ver una barra lateral vertical que permite navegar entre categorías y subcategorías para activar o desactivar las capas predefinidas por el cliente desde **Layers Manager** y visualizarlas u ocultarlas.
 
-.. image:: ../images/barra1.png
+.. image:: images/barra1.png
    :align: right
    :scale: 25 %
 
@@ -15,14 +15,14 @@ Estas agrupan a las capas dentro de las categorías en torno a temáticas más e
 
 Al hacer clic en una subcategoría, finalmente aparecerán las **capas**.
 
-.. image:: ../images/barra2.png
+.. image:: images/barra2.png
    :align: left
    :scale: 30 %
 
 Al cliquear en cada capa, esta se activará y podrá verse sobre el mapa. Al hacer esto, también se abrirá una **tarjeta de capa** a la derecha del panel de capas. Es probable que debamos hacer click en en el signo mayor, a la izquierda de la cruz para desplegarla.
 
 
-.. image:: ../images/barra3.png
+.. image:: images/barra3.png
    :align: center
 
 
