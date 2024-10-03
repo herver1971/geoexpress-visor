@@ -1,5 +1,7 @@
 """Entrypoint for ``python -m sphinx_autobuild``."""
 
+from __future__ import annotations
+
 import argparse
 import shlex
 import sys
@@ -20,7 +22,7 @@ from sphinx_autobuild.build import Builder
 from sphinx_autobuild.filter import IgnoreFilter
 from sphinx_autobuild.middleware import JavascriptInjectorMiddleware
 from sphinx_autobuild.server import RebuildServer
-from sphinx_autobuild.utils import find_free_port, open_browser, show
+from sphinx_autobuild.utils import find_free_port, open_browser, show_message
 
 
 def main(argv=()):
@@ -80,17 +82,17 @@ def main(argv=()):
     app = _create_app(watch_dirs, ignore_handler, builder, serve_dir, url_host)
 
     if not args.no_initial_build:
-        show(context="Starting initial build")
-        builder(rebuild=False)
+        show_message("Starting initial build")
+        builder(changed_paths=())
 
     if args.open_browser:
         open_browser(url_host, args.delay)
 
-    show(context="Waiting to detect changes...")
+    show_message("Waiting to detect changes...")
     try:
         uvicorn.run(app, host=host_name, port=port_num, log_level="warning")
     except KeyboardInterrupt:
-        show(context="Server ceasing operations. Cheerio!")
+        show_message("Server ceasing operations. Cheerio!")
 
 
 def _create_app(watch_dirs, ignore_handler, builder, out_dir, url_host):
