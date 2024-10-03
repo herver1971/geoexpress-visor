@@ -2,7 +2,7 @@ Barra Lateral
 =============
 
 .. toctree::
-    :maxdepth: 2
+    :maxdepth: 3
 
     sidebar/index
     cards/index
