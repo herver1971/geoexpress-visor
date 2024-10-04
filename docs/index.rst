@@ -26,3 +26,4 @@ Tabla de contenidos
     :maxdepth: 3
 
     navigation/index
+    search/index
