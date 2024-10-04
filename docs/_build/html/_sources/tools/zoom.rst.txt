@@ -9,7 +9,9 @@ Para ajustar el nivel de zoom en el visor, use los botones **+** para acercar la
 Visualización a zoom 22
 
 .. image:: images/zoom2.png
+   :scale: 50 %
 
 Visualización a zoom 0.9
 
 .. image:: images/zoom3.png
+   :scale: 50 %
