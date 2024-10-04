@@ -1,8 +1,8 @@
-BUsqueda
+Búsqueda
 ========
 
 .. toctree::
     :maxdepth: 3
 
-    geonode
     search
+    geonode
