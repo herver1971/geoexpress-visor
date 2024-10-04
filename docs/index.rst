@@ -27,4 +27,5 @@ Tabla de contenidos
 
     navigation/index
     search/index
+    search/geonode
     tools/index
