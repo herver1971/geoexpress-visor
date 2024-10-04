@@ -7,7 +7,5 @@ Herramientas de navegación
     location
     zoom
     orientation
-    measuring
     3d-2d
-    presentation
-    impression
+    measuring
