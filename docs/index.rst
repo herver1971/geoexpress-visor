@@ -28,3 +28,4 @@ Tabla de contenidos
     navigation/index
     search/index
     tools/index
+    basemap/index
