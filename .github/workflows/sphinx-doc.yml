@@ -28,7 +28,7 @@ jobs:
       run: |
         python -m pip install --upgrade pip
         pip install -r docs/requirements.txt
-        sudo apt-get update && sudo apt-get install -y make latexmk texlive-latex-recommended texlive-latex-extra texlive-fonts-recommended
+        sudo apt-get update && sudo apt-get install -y latexmk texlive-latex-recommended texlive-latex-extra texlive-fonts-recommended
 
     # 4. Run sphinx-apidoc
     - name: Generate API documentation
@@ -44,7 +44,9 @@ jobs:
     - name: Build PDF documentation
       run: |
         sphinx-build -b latex docs docs/_build/latex
-        make -C docs/_build/latex latexpdf
+        cd docs/_build/latex
+        ls  # Verificar que el archivo .tex se ha generado
+        latexmk -pdf -quiet -interaction=nonstopmode -f *.tex  # Compilar el archivo .tex generado
 
     # 7. Commit and push the generated documentation
     - name: Commit and push changes
