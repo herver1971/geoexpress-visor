@@ -45,15 +45,17 @@ jobs:
       run: |
         sphinx-build -b latex docs docs/_build/latex
         cd docs/_build/latex
-        ls  # Verificar que el archivo .tex se ha generado
-        latexmk -pdf -quiet -interaction=nonstopmode -f *.tex  # Compilar el archivo .tex generado
+        # List all generated .tex files to find the correct one
+        ls *.tex
+        # Compile the found .tex file to PDF
+        latexmk -pdf -quiet -interaction=nonstopmode -f *.tex
 
     # 7. Commit and push the generated documentation
     - name: Commit and push changes
       run: |
         git config --global user.name 'github-actions[bot]'
         git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-        git add docs/_build/html docs/*.rst docs/_build/latex/Geoexpress.pdf
+        git add docs/_build/html docs/*.rst docs/_build/latex/*.pdf
         git commit -m "Auto-update documentation"
         git push
       env:
