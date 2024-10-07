@@ -17,7 +17,12 @@ author = 'Kan Territory & IT'
 release = '2.2.0'
 
 # Importar el diccionario latex_template
-from latex_template.py import latex_elements
+from latex_template import latex_elements
+
+latex_engine = 'xelatex'
+latex_elements = latex_template
+
+latex_show_urls = 'footnote'
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
@@ -34,9 +39,6 @@ extensions = [
 	'sphinx.ext.napoleon'
 ]
 
-latex_engine = 'xelatex'
-latex_elements = latex_template
-latex_show_urls = 'footnote'
 
 templates_path = ['_templates']
 exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
