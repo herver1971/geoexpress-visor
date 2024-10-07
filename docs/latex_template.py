@@ -18,7 +18,7 @@ latex_elements = {
 \setlength{\cftsecindent}{\cftchapnumwidth}
 \setlength{\cftsecnumwidth}{1.25cm}
 ''',
-    'sphinxsetup': 'TitleColor=DarkGoldenrod',
+    'sphinxsetup': 'TitleColor=#f03861',
     'fncychap': r'\usepackage[Bjornstrup]{fncychap}',
     'printindex': r'\footnotesize\raggedright\printindex',
 }
