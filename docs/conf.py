@@ -8,7 +8,7 @@
 import os
 import sys
 
-sys.path.insert(0, os.path.abspath('.'))
+sys.path.insert(0, os.path.abspath('..'))
 
 
 project = 'GeoExpress Visor'
@@ -17,7 +17,7 @@ author = 'Kan Territory & IT'
 release = '2.2.0'
 
 # Importar el diccionario latex_template
-from latex_template import latex_template
+from latex_template import latex_elements
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
