@@ -1,3 +1,5 @@
+# docs/latex_template.py
+
 latex_elements = {
     'papersize': 'a4paper',  # Tamaño del papel
     'pointsize': '11pt',  # Tamaño de la fuente
