@@ -31,10 +31,15 @@ extensions = [
 	'sphinx.ext.napoleon'
 ]
 
+latex_elements = {
+    'babel': '\\usepackage[spanish]{babel}',
+    'fncychap': '\\usepackage[Bjarne]{fncychap}',  # Puedes personalizar el estilo de los capítulos
+}
+
 templates_path = ['_templates']
 exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 
-language = 'en'
+language = 'es'
 locale_dirs = ['locale/']   # directorio que contiene los archivos de traducción
 gettext_compact = False      # para evitar la compresión de mensajes en un solo archivo
 
