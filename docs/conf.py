@@ -33,7 +33,7 @@ extensions = [
 
 latex_elements = {
     'babel': '\\usepackage[spanish]{babel}',
-    'fncychap': '\\usepackage[Bjarne]{fncychap}',  # Puedes personalizar el estilo de los capítulos
+#    'fncychap': '\\usepackage[Bjarne]{fncychap}',  # Puedes personalizar el estilo de los capítulos
 }
 
 templates_path = ['_templates']
