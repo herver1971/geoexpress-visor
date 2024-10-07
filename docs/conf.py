@@ -16,6 +16,9 @@ copyright = '2024, Kan Territory & IT'
 author = 'Kan Territory & IT'
 release = '2.2.0'
 
+# Importar el diccionario latex_template
+from latex_template import latex_template
+
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
@@ -32,28 +35,7 @@ extensions = [
 ]
 
 latex_engine = 'xelatex'
-latex_elements = {
-    'papersize': 'a4paper',  # Tamaño del papel
-    'pointsize': '11pt',  # Tamaño de la fuente
-    'passoptionstopackages': r'''
-\PassOptionsToPackage{svgnames}{xcolor}
-''',
-    'fontpkg': r'''
-\setmainfont{DejaVu Serif}
-\setsansfont{DejaVu Sans}
-\setmonofont{DejaVu Sans Mono}
-''',
-    'preamble': r'''
-\usepackage[titles]{tocloft}
-\cftsetpnumwidth {1.25cm}\cftsetrmarg{1.5cm}
-\setlength{\cftchapnumwidth}{0.75cm}
-\setlength{\cftsecindent}{\cftchapnumwidth}
-\setlength{\cftsecnumwidth}{1.25cm}
-''',
-    'sphinxsetup': 'TitleColor=DarkGoldenrod',
-    'fncychap': r'\usepackage[Bjornstrup]{fncychap}',
-    'printindex': r'\footnotesize\raggedright\printindex',
-}
+latex_elements = latex_template
 latex_show_urls = 'footnote'
 
 templates_path = ['_templates']
