@@ -17,6 +17,13 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v3
 
+    # List files for debugging
+    - name: List files for debugging
+      run: |
+        echo "Current directory: $(pwd)"
+        echo "Listing all files:"
+        ls -R
+
     # 2. Set up Python
     - name: Set up Python
       uses: actions/setup-python@v4
