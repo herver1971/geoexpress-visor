@@ -20,7 +20,7 @@ release = '2.2.0'
 from latex_template import latex_elements
 
 latex_engine = 'xelatex'
-latex_elements = latex_template
+latex_elements = latex_elements
 
 latex_show_urls = 'footnote'
 
