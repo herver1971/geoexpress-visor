@@ -50,7 +50,11 @@ latex_elements = {
 \setlength{\cftsecindent}{\cftchapnumwidth}
 \setlength{\cftsecnumwidth}{1.25cm}
 ''',
-    'sphinxsetup': 'TitleColor=DarkGoldenrod',
+    'sphinxsetup': r'''
+TitleColor={[rgb]{0.941, 0.22, 0.38}},  % Aquí se establece el color para los títulos
+InnerLinkColor={[rgb]{0.941, 0.22, 0.38}},
+OuterLinkColor={[rgb]{0.941, 0.22, 0.38}}
+''',
     'fncychap': r'\usepackage[Bjornstrup]{fncychap}',
     'printindex': r'\footnotesize\raggedright\printindex',
 }
