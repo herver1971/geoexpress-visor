@@ -17,7 +17,7 @@ author = 'Kan Territory & IT'
 release = '2.2.0'
 
 # Importar el diccionario latex_template
-from latex_template import latex_elements
+from latex_template.py import latex_elements
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
