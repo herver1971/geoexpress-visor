@@ -22,7 +22,7 @@ latex_elements = {
         \AddToShipoutPictureBG*{%
             \AtPageLowerLeft{%
                 \ifnum\value{page}=1  % Solo en la primera página
-                    \includegraphics[width=\paperwidth,height=\paperheight]{images/cabeceraKAN.png}
+                    \includegraphics[width=\paperwidth,height=\paperheight]{_static/images/cabeceraKAN.png}
                 \fi
             }
         }
