@@ -52,4 +52,4 @@ gettext_compact = False      # para evitar la compresión de mensajes en un solo
 
 import sphinx_rtd_theme
 html_theme = 'sphinx_rtd_theme'
-html_static_path = [sphinx_rtd_theme.get_html_theme_path()]
+html_static_path = [sphinx_rtd_theme.get_html_theme_path(), '_static']
