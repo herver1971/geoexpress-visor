@@ -27,6 +27,10 @@ Filtros
 
 El botón **Filtros** permite hacer un filtrado de los datos de la capa. Como ejemplo, la capa Localidades esta organizada por provincias y por medio del filtro, podremos seleccionar algunas, todas o ninguna
 
+.. warning::
+
+RESTRICCIÓN: Si se supera el límite de 30 opciones para seleccionar, el filtro de selección no aparecerá en la tarjeta de capas.
+
 Más operaciones
 ---------------
 
