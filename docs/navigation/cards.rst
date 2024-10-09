@@ -29,7 +29,7 @@ El botón **Filtros** permite hacer un filtrado de los datos de la capa. Como ej
 
 .. warning::
 
-RESTRICCIÓN: Si se supera el límite de 30 opciones para seleccionar, el filtro de selección no aparecerá en la tarjeta de capas.
+    RESTRICCIÓN: Si se supera el límite de 30 opciones para seleccionar, el filtro de selección no aparecerá en la tarjeta de capas.
 
 Más operaciones
 ---------------
