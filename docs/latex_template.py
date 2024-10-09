@@ -17,6 +17,15 @@ latex_elements = {
 \setlength{\cftchapnumwidth}{0.75cm}
 \setlength{\cftsecindent}{\cftchapnumwidth}
 \setlength{\cftsecnumwidth}{1.25cm}
+\usepackage{eso-pic}  % Paquete para agregar imágenes en el fondo
+        \usepackage{graphicx}  % Paquete para manejar gráficos (imágenes)
+        \AddToShipoutPictureBG*{%
+            \AtPageLowerLeft{%
+                \ifnum\value{page}=1  % Solo en la primera página
+                    \includegraphics[width=\paperwidth,height=\paperheight]{./images/cabeceraKAN.png}
+                \fi
+            }
+        }
 ''',
     'sphinxsetup': ''' 
         TitleColor={RGB}{240,56,97},
