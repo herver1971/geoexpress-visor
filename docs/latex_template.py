@@ -17,6 +17,10 @@ latex_elements = {
 \setlength{\cftchapnumwidth}{0.75cm}
 \setlength{\cftsecindent}{\cftchapnumwidth}
 \setlength{\cftsecnumwidth}{1.25cm}
+\usepackage { graphicx }
+\graphicspath {  { ./_static/images/ }  }
+\includegraphics { cabeceraKAN.png }
+
     ''',
     'sphinxsetup': ''' 
         TitleColor={RGB}{240,56,97},
