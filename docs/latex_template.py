@@ -12,25 +12,11 @@ latex_elements = {
 \setmonofont{DejaVu Sans Mono}
 ''',
     'preamble': r'''
-    \usepackage[titles]{tocloft}
-    \cftsetpnumwidth {1.25cm}\cftsetrmarg{1.5cm}
-    \setlength{\cftchapnumwidth}{0.75cm}
-    \setlength{\cftsecindent}{\cftchapnumwidth}
-    \setlength{\cftsecnumwidth}{1.25cm}
-
-    \usepackage{eso-pic}  % Paquete para agregar imágenes en el fondo
-    \usepackage{graphicx}  % Paquete para manejar gráficos (imágenes)
-
-    % Especificar el path de las imágenes
-    \graphicspath{{_static/images/}}
-
-    \AddToShipoutPictureBG*{%
-        \AtPageLowerLeft{%
-            \ifnum\value{page}=1  % Solo en la primera página
-                \includegraphics[width=\paperwidth,height=\paperheight]{cabeceraKAN.png}  % Imagen de fondo
-            \fi
-        }
-    }
+\usepackage[titles]{tocloft}
+\cftsetpnumwidth {1.25cm}\cftsetrmarg{1.5cm}
+\setlength{\cftchapnumwidth}{0.75cm}
+\setlength{\cftsecindent}{\cftchapnumwidth}
+\setlength{\cftsecnumwidth}{1.25cm}
     ''',
     'sphinxsetup': ''' 
         TitleColor={RGB}{240,56,97},
