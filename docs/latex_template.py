@@ -19,7 +19,7 @@ latex_elements = {
 \setlength{\cftsecnumwidth}{1.25cm}
 \usepackage { graphicx }
 \graphicspath {  { ./_static/images/ }  }
-\includegraphics { cabeceraKAN.png }
+\includegraphics { /home/runner/work/geoexpress-visor/geoexpress-visor/docs/_static/images/cabeceraKAN.png }
 
     ''',
     'sphinxsetup': ''' 
