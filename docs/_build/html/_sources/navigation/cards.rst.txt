@@ -52,11 +52,11 @@ El botón **+** nos muestra mas opciones para trabajar con las capas. Nos permit
 
     * Ver informacion de la capa
 
-      Apretando en
+    Apretando en
 
     .. image:: images/cards7.png
 
-      Nos muestra
+    Nos muestra
 
     .. image:: images/cards8.png
 
